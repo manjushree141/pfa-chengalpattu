@@ -1,0 +1,166 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #443353;
+  --title-color: #4d3c5b;
+  --lite-background: #fbf5ee;
+  --dark-background: #eceaed;
+  --secondary: #f0eeed;
+  --accent-gold: #f6b05c;
+  --accent-red: #ea384c;
+}
+
+@layer base {
+  body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #5D6C7B;
+    background-color: #FBF5EE;
+  }
+  
+  h1, h2, h3, h4, .font-cormorant {
+    font-family: 'Cormorant', Georgia, serif;
+  }
+
+  .font-josefin {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+}
+
+/* GodsGrace Signature Decorative Subtitle Divider */
+.section-underline {
+  height: 1px;
+  width: 45px;
+  background-color: var(--accent-gold);
+  display: inline-block;
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+.section-straight-line {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 6px;
+}
+
+.section-rectangle {
+  width: 6px;
+  height: 6px;
+  background-color: var(--accent-gold);
+  transform: rotate(45deg);
+}
+
+/* GodsGrace Button Line-Break Animation */
+.button-line-break {
+  width: 14px;
+  height: 2px;
+  background-color: currentColor;
+  margin-right: 10px;
+  transition: width 0.3s ease, margin 0.3s ease;
+}
+
+.gods-button {
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 13px 28px;
+  border: 1px solid var(--primary);
+  background-color: transparent;
+  color: var(--primary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.gods-button:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+  padding-left: 32px;
+}
+
+.gods-button:hover .button-line-break {
+  width: 22px;
+  background-color: #ffffff;
+}
+
+.gods-button-solid {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+.gods-button-solid:hover {
+  background-color: #342640;
+  color: #f6b05c;
+}
+
+.gods-button-gold {
+  background-color: var(--accent-gold);
+  color: var(--primary);
+  border-color: var(--accent-gold);
+  font-weight: 700;
+}
+
+.gods-button-gold:hover {
+  background-color: #ffbe70;
+  color: var(--primary);
+}
+
+/* GodsGrace Asymmetrical Banner Shapes */
+.banner-yellow-bg {
+  position: absolute;
+  width: 320px;
+  height: 380px;
+  background-color: #f6b05c;
+  border-radius: 200px 200px 0 0;
+  top: -20px;
+  right: 40px;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+.banner-plum-bg {
+  position: absolute;
+  width: 280px;
+  height: 340px;
+  background-color: #443353;
+  border-radius: 180px 180px 0 0;
+  bottom: -30px;
+  right: -20px;
+  z-index: 2;
+}
+
+.banner-image-cutout {
+  position: relative;
+  z-index: 5;
+  border-radius: 220px 220px 20px 20px;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(68, 51, 83, 0.25);
+}
+
+/* Service Card Hover */
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px -8px rgba(68, 51, 83, 0.12);
+  border-color: var(--accent-gold);
+}
+
+/* Custom scrollbars matching GodsGrace */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #FBF5EE;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4B9CE;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #443353;
+}

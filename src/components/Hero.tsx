@@ -1,6 +1,7 @@
 import React from 'react';
 import { PFA_DATA } from '../data/pfaData';
 import { PhoneCall } from 'lucide-react';
+import heroCutoutImg from '../assets/images/hero-cutout.jpeg';
 
 interface HeroProps {
   onOpenDonate: () => void;
@@ -75,7 +76,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDonate, onNavigateFounder }) =
           {/* Foreground Emotive Cutout Image - Centered and Properly Cropped */}
           <div className="banner-image-cutout w-72 sm:w-80 h-[440px] sm:h-[480px] bg-white border-4 border-white shadow-xl">
             <img 
-              src="./images/hero-cutout.jpeg" 
+              src={heroCutoutImg} 
               alt="Rescued Puppies at PFA" 
               className="w-full h-full object-cover object-center"
             />

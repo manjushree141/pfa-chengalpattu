@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PFA_DATA } from '../data/pfaData';
 import { Check } from 'lucide-react';
+import ambulanceImg from '../assets/images/ambulance.jpeg';
 
 interface GodsGraceDonateSectionProps {
   onOpenFullModal: (amt: number) => void;
@@ -29,7 +30,7 @@ export const GodsGraceDonateSection: React.FC<GodsGraceDonateSectionProps> = ({ 
           <div className="relative">
             <div className="rounded-2xl overflow-hidden border-4 border-white shadow-xl aspect-[4/3] bg-white">
               <img 
-                src="./images/ambulance.jpeg" 
+                src={ambulanceImg} 
                 alt="PFA Chengalpattu Ambulance and Rescue Team" 
                 className="w-full h-full object-cover object-center"
               />

@@ -1,4 +1,6 @@
 import React from 'react';
+import ambulanceImg from '../assets/images/ambulance.jpeg';
+import adoptDogImg from '../assets/images/adopt-dog.jpg';
 
 interface GodsGraceEventsSectionProps {
   onNavigateLinkedIn: () => void;
@@ -40,7 +42,7 @@ export const GodsGraceEventsSection: React.FC<GodsGraceEventsSectionProps> = ({ 
 
               {/* Thumbnail */}
               <img 
-                src="./images/ambulance.jpeg" 
+                src={ambulanceImg} 
                 alt="Ambulance Dispatch" 
                 className="w-24 h-16 object-cover object-center hidden sm:block shrink-0 rounded"
               />
@@ -69,7 +71,7 @@ export const GodsGraceEventsSection: React.FC<GodsGraceEventsSectionProps> = ({ 
               </div>
 
               <img 
-                src="./images/adopt-dog.jpg" 
+                src={adoptDogImg} 
                 alt="ABC Surgery" 
                 className="w-24 h-16 object-cover object-center hidden sm:block shrink-0 rounded"
               />

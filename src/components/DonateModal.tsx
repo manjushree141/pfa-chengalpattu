@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PFA_DATA } from '../data/pfaData';
 import { X, Heart, ShieldCheck, Copy, Check, QrCode, Building } from 'lucide-react';
+import paymentQrImg from '../assets/images/payment-qr.jpeg';
 
 interface DonateModalProps {
   isOpen: boolean;
@@ -134,7 +135,7 @@ export const DonateModal: React.FC<DonateModalProps> = ({
                 </p>
                 <div className="max-w-[190px] mx-auto border border-[#ECEAED] overflow-hidden p-2 bg-white shadow-xs">
                   <img
-                    src="./images/payment-qr.jpeg"
+                    src={paymentQrImg}
                     alt="Official PFA Chengalpattu Payment QR Code"
                     className="w-full h-auto object-contain"
                   />

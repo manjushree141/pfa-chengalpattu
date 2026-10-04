@@ -134,7 +134,7 @@ export const DonateModal: React.FC<DonateModalProps> = ({
                 </p>
                 <div className="max-w-[190px] mx-auto border border-[#ECEAED] overflow-hidden p-2 bg-white shadow-xs">
                   <img
-                    src="/images/payment-qr.jpeg"
+                    src="./images/payment-qr.jpeg"
                     alt="Official PFA Chengalpattu Payment QR Code"
                     className="w-full h-auto object-contain"
                   />

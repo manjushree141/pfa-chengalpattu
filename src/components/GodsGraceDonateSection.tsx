@@ -29,7 +29,7 @@ export const GodsGraceDonateSection: React.FC<GodsGraceDonateSectionProps> = ({ 
           <div className="relative">
             <div className="rounded-2xl overflow-hidden border-4 border-white shadow-xl aspect-[4/3] bg-white">
               <img 
-                src="/images/ambulance.jpeg" 
+                src="./images/ambulance.jpeg" 
                 alt="PFA Chengalpattu Ambulance and Rescue Team" 
                 className="w-full h-full object-cover object-center"
               />

@@ -40,7 +40,7 @@ export const GodsGraceEventsSection: React.FC<GodsGraceEventsSectionProps> = ({ 
 
               {/* Thumbnail */}
               <img 
-                src="/images/ambulance.jpeg" 
+                src="./images/ambulance.jpeg" 
                 alt="Ambulance Dispatch" 
                 className="w-24 h-16 object-cover object-center hidden sm:block shrink-0 rounded"
               />
@@ -69,7 +69,7 @@ export const GodsGraceEventsSection: React.FC<GodsGraceEventsSectionProps> = ({ 
               </div>
 
               <img 
-                src="/images/adopt-dog.jpg" 
+                src="./images/adopt-dog.jpg" 
                 alt="ABC Surgery" 
                 className="w-24 h-16 object-cover object-center hidden sm:block shrink-0 rounded"
               />

@@ -84,19 +84,19 @@ Maneka Gandhi ma’am has always been the inspiration for millions across the wo
 Today, when I see humans capturing every piece of land available and trying to drive animals away from their natural habitat, advocating against community care, it pains my heart. The existing animal protection laws are weak and animal welfare policies are not executed well on the ground. We need to work strategically to bring about sustainable, lasting change. Compassion is not a choice—it is a duty that should be practiced by all and should be part of our education system for a kinder India.`,
     images: [
       {
-        url: "/images/founder-portrait-arna.jpg",
+        url: "./images/founder-portrait-arna.jpg",
         caption: "Arna Dey, Founder & Animal Welfare Legal Advocate"
       },
       {
-        url: "/images/founder-arna-maneka.jpg",
+        url: "./images/founder-arna-maneka.jpg",
         caption: "Arna Dey with Smt. Maneka Gandhi, Animal Welfare Movement Leader"
       },
       {
-        url: "/images/founder-action.jpeg",
+        url: "./images/founder-action.jpeg",
         caption: "On-ground animal rescue and emergency medical intervention"
       },
       {
-        url: "/images/founder-field.jpeg",
+        url: "./images/founder-field.jpeg",
         caption: "Arna Dey with rescued community companions in Chengalpattu"
       }
     ]
